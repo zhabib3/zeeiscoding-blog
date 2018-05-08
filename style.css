@@ -1,4 +1,12 @@
+/*
+*  Theme Name: custom-theme
+*  Auhor: Zeeshan Habib
+*  Version: 0.5
+*/
+
 body {
+  background-image: url('body-bg.png');
+  font-family: 'Maven Pro', sans-serif;
 }
 
 .block-1 {
@@ -6,21 +14,39 @@ body {
   background-color: #37da7b;
   color: white;
   margin: 0;
-  text-align: right;
+  padding: 20px;
   padding-top: 100px;
   font-family: 'Shadows Into Light', cursive;
+  -webkit-box-shadow: 3px 3px 23px 0px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 3px 3px 23px 0px rgba(0, 0, 0, 0.59);
+  box-shadow: 3px 3px 23px 0px rgba(0, 0, 0, 0.59);
 }
 
 .heading {
   margin-bottom: 30px;
+  text-align: right;
 }
 
 .block-2 {
-  height: 100vh;
+  padding: 20px;
+  height: 100%;
   color: black;
   background-color: #343A40;
 }
 
+.navbar {
+  margin-bottom: 40px;
+}
+
 .card {
   margin: 20px;
+  padding: 20px;
+}
+
+.card-title {
+  color: #37da7b;
+}
+
+.card-text {
+  margin-top: 40px;
 }
